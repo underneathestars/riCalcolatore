@@ -1,0 +1,268 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* font-family: 'Comfortaa', cursive;
+font-family: 'Hubballi', cursive; */
+
+html {
+    scroll-behavior: smooth;
+    margin-bottom: 0;
+}
+
+body {
+    font-family: 'Hubballi', cursive;
+    text-align: center;
+}
+
+/* GLOBAL */
+
+
+img {
+    display: block;
+}
+
+#upperSection {
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color:#EAFFD0;
+}
+
+#hero {
+    background-color: #EAFFD0;
+    margin-top: 0px;
+    width: 100%;
+    position: relative;
+}
+
+#hero img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hero .title h1 {
+    color: #95E1D3;
+    font-size: 70px;
+    line-height: 80px;
+    text-align: center;  
+    padding: 20px 20px;  
+}
+
+.istruzioni {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #FCE38A;
+    width: 100%;
+    height: 100%;
+    padding: 10px 80px;
+}
+
+.istruzioni h2 {
+    color: #FF75A0;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 10px auto 10px auto;
+    margin-top: 40px;
+
+}
+
+.istruzioni p {
+    font-size: 30px;
+    font-weight: 600;
+    color: #FF75A0;
+    padding: 20px 50px;
+    margin-bottom: 30px;
+
+}
+
+.istruzioni input {
+    display: inline-block;
+    width: 40%;
+    height: 30px;
+    border-radius: 5px;
+    border-style: hidden;
+    font-family:'Hubballi', cursive;
+    font-size: 17px;
+    text-align: center;
+}
+
+
+footer {
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #FF75A0;
+    margin: 0 auto 0 auto;
+    padding: 50px 50px 50px 50px;
+    bottom:0;
+    width: 100%;
+    height: 100%;
+}
+
+footer p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.credits {
+    color: white;
+    text-decoration: underline;
+}
+
+.credits:hover {
+    text-decoration: none;
+}
+.dessertIconsCredits {
+    padding-top: 10px;
+    font-size: 15px;
+    color: white;
+    text-decoration: underline;
+}
+.dessertIconsCredits:hover {
+    text-decoration: none;
+}
+
+#pulsante {
+    
+    font-family:'Hubballi', cursive;
+    font-weight: 700;
+    background-color: #95E1D3;
+    border: 2px #FF75A0 solid;
+    border-radius: 15px;
+    color: #FF75A0;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 20px auto;
+    padding: 10px 30px;
+    text-decoration: solid;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    text-align: center;
+}
+
+#pulsante:hover {
+    background: white;
+    color: #FF75A0 ;
+}
+
+@media all and (max-width: 990px) {
+    #hero img {
+        width: 200px;
+        height: auto;
+    }
+
+    #upperSection {
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color:#EAFFD0;
+}
+
+#hero {
+    background-color: #EAFFD0;
+    margin-top: 0px;
+    width: 100%;
+    position: relative;
+}
+
+#hero img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hero .title h1 {
+    color: #95E1D3;
+    font-size: 90px;
+    line-height: 80px;
+    text-align: center;  
+    padding: 20px 20px;  
+}
+.istruzioni {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #FCE38A;
+    width: 100%;
+    height: 100%;
+    padding: 10px 80px;
+}
+
+.istruzioni h2 {
+    color: #FF75A0;
+    font-weight: 700;
+    font-size: 80px;
+    padding: 10px auto 10px auto;
+    margin-top: 20px;
+
+}
+
+.istruzioni p {
+    font-size: 60px;
+    font-weight: 600;
+    color: #FF75A0;
+    padding: 20px 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.istruzioni input {
+    display: inline-block;
+    width: 100%;
+    height: 90px;
+    border-radius: 5px;
+    border-style: hidden;
+    font-family:'Hubballi', cursive;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+footer {
+    flex-wrap: wrap;
+    align-self: flex-start;
+    justify-content: center;
+    background-color: #FF75A0;
+    margin: 0 auto 0 auto;
+    padding: 50px 50px 50px 50px;
+    bottom:0;
+    width: 100%;
+    height: 100%;
+}
+
+footer p {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+#pulsante {
+    
+    font-family:'Hubballi', cursive;
+    font-weight: 700;
+    background-color: #95E1D3;
+    border: 2px #FF75A0 solid;
+    border-radius: 15px;
+    color: #FF75A0;
+    font-size: 50px;
+    line-height: 80px;
+    margin: 90px auto 50px auto;
+    padding: 10px 30px;
+    text-decoration: solid;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    text-align: center;
+}
+
+#pulsante:hover {
+    background: white;
+    color: #FF75A0 ;
+}
+
+}
